@@ -1,8 +1,12 @@
 package bonjour;
 
-
+class perso {
+    int PointDeVie;
+    String nom;
+}
 class HelloWorld {
     public static void main (String[] args) {
-        System.out.println("Hello World");
+        perso bilbon = new perso();
+        System.out.println(bilbon);
     }
 }
